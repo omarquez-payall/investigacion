@@ -27,6 +27,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/hr_timesheet_project_task_create_timesheet_inherit.xml',
         'views/hr_timesheet_project_task_inherit.xml'
     ],
     # only loaded in demonstration mode
