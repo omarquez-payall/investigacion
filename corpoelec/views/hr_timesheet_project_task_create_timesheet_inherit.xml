@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="timesheet_project_task_create_timesheet_inherit">
+        <field name="name">timesheet.project.task.create.timesheet.inherit</field>
+        <field name="model">project.task.create.timesheet.wizard.form</field>
+        <field name="inherit_id" ref="hr_timesheet.project_task_create_timesheet_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='time_spent']" position="replace">
+                <field name="time_spent" string="Duration" readonly="1" class="oe_inline" widget="float_time" required="True"/>
+            </xpath>
+        </field>
+    </record>
+  </data>
+</odoo>
