@@ -1,6 +1,6 @@
 <odoo>
   <data>
-    <record model="ir.ui.view" id="timesheet_grid.timesheet_view_grid">
+    <record model="ir.ui.view" id="timesheet_project_grid_inherit">
         <field name="name">timesheet.project.task.grid.inherit</field>
         <field name="model">account.analytic.line</field>
         <field name="groups_id" eval="[(4, ref('payall.payall_project_user'))]"/>
