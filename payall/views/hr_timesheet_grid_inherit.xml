@@ -7,7 +7,8 @@
         <field name="groups_id" eval="[(4, ref('payall.payall_project_user'))]"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='unit_amount']" position="attributes">
-                <attribute name="readonly">1</attribute>
+                <attribute name="create">False</attribute>
+                <attribute name="edit">False</attribute>
             </xpath>
         </field>
     </record>
