@@ -30,7 +30,7 @@
         'views/templates.xml',
         'views/hr_timesheet_project_task_create_timesheet_inherit.xml',
         'views/hr_timesheet_project_task_inherit.xml',
-        'views/hr_timesheet_grid_inherit.xml'
+        #'views/hr_timesheet_grid_inherit.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
